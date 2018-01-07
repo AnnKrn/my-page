@@ -1,0 +1,19 @@
+#main_menu li{
+  display: inline;
+  text-decoration: none;
+}
+
+/*padding seccion contacto*/
+main#principal_content div.col-12 div.row div.col-10 div.row div.col-3 div.row div.col-12.  div.row div.tab-paddig {
+  padding-left: 20px;
+}
+
+/*misilaneos*/
+.principal-color {
+  background-color: #343A40;
+  color: white;
+}
+
+.center-paddig {
+  text-align: center;
+}
