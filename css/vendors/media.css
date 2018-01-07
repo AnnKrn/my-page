@@ -1,27 +1,40 @@
-@media (max-width: 768px) {
-  
+@media screen and (max-width: 768px) {
+  header div h1 {
+    padding: 10px 45px;
+  }
+
+  #main_menu {
+    display: none;
+  }
+
+  button#btn_cta {
+    width: 65%;
+  }
+
   /*adaptar contenido al 100% en mobiles*/
   [class*="col-"] {
     width: calc(100% - 20px);
   }
 
-  /*miselaneos*/
-
-  /*padding seccion contacto*/
-  .tab-paddig {
-    padding-left: 0px;
-  }
-
-  /*ajuste 75%-25% header ARRGLAR MENU PARA mobile*/
-  .col-4-mobile {
-    width: calc(75% - 20px);
-  }
-
-  .col-3-mobile {
-    width: calc(25% - 20px);
-  }
-
   .col-0-mobile {
     margin: 0;
   }
+
+  /*menu para movil*/
+  .btn-menu {
+    display: block;
+    float: right;
+  }
 }
+  /* comenzar a hacer menu desplelable, se necesita js
+  #main_menu {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    position: fixed;
+  }
+
+  #main_menu ul li {
+    display: block;
+    border-bottom: 1px solid (255, 255, 255,.3);
+  }*/

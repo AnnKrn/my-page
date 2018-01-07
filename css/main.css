@@ -1,11 +1,77 @@
-#main_menu li{
+body {
+  text-align: justify;
+  color: black;
+  font-size: 100%
+}
+
+header div h1 {
+  padding-top: 5px;
+}
+/*configuracion de menu*/
+#main_menu ul li{
   display: inline;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+#main_menu ul li a {
+  color: grey;
   text-decoration: none;
 }
 
-/*padding seccion contacto*/
-main#principal_content div.col-12 div.row div.col-10 div.row div.col-3 div.row div.col-12.  div.row div.tab-paddig {
-  padding-left: 20px;
+#main_menu ul li a:hover {
+  color: white;
+}
+
+/*imagen de portada*/
+#cover_page {
+  background-image: url(../assets/images/emile-perron.jpg);
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+#cover_page > div.col-4 > h1 {
+  text-align: center;
+  font-size: 100px;
+  padding: 125px 0;
+  color: white;
+}
+/*imagenees de tarjetas*/
+#card1 {
+  background-image: url(../assets/images/dose-media.jpg);
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#card2 {
+  background-image: url(../assets/images/jeshoots-com.jpg);
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#card3 {
+  background-image: url(../assets/images/nick-jio.jpg);
+  background-size: cover;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*botones Call To Action/Find Out More*/
+button#btn_cta {
+  height: 40px;
+  width: 20%;
+}
+
+button.btn-find-out {
+  height: 35px;
+  width: 45%;
 }
 
 /*misilaneos*/
@@ -16,4 +82,16 @@ main#principal_content div.col-12 div.row div.col-10 div.row div.col-3 div.row d
 
 .center-paddig {
   text-align: center;
+}
+
+/**/
+.btn-style {
+  border: none;
+  border-radius: 10px;
+  font-size: 100%;
+}
+
+.btn-menu {
+  display: none;
+  color: white;
 }
