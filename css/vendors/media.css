@@ -26,14 +26,14 @@
     float: right;
   }
 }
-  /* comenzar a hacer menu desplelable, se necesita js
+
+/* comenzar a hacer menu desplelable, se necesita js
   #main_menu {
     width: 80%;
     height: 100%;
     margin: 0;
     position: fixed;
   }
-
   #main_menu ul li {
     display: block;
     border-bottom: 1px solid (255, 255, 255,.3);

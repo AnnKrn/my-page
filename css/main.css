@@ -25,19 +25,23 @@ header div h1 {
 
 /*imagen de portada*/
 #cover_page {
-  background-image: url(../assets/images/emile-perron.jpg);
+  background-image: url(../assets/images/kevin.jpg);
   background-size: cover;
-  height: 400px;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  overflow: hidden;
+  background-position: center;
+  /*background-attachment: fixed;
+  overflow: hidden;*/
 }
 
 #cover_page > div.col-4 > h1 {
-  text-align: center;
-  font-size: 100px;
-  padding: 125px 0;
   color: white;
+  text-align: center;
+  font-size: 90px;
+  padding: 10px 0;
+  width: 100%
 }
 /*imagenees de tarjetas*/
 #card1 {
