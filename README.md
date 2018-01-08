@@ -15,6 +15,7 @@ En cuanto al uso de media queries, ajuste al max-width 768px; para que se ajusta
  * Menu para dispositivos moviles. Solo se maqueto el icono ya que se requiere el uso de js para hacerlo funcional (segunda etapa)
 
  * El texto la etiqueta main y footer parace estar dentro de una etiqueta anchor, aunque en codigo no se visualiza la etiqueta en consola si. No sé como describirlo para investigar una solución.
+  * Falsa Alarma, mis compañeras me ayudaron a ver que no habia una etiqueta <a> cerrada :)
 
  Asi se ve en consola:
 
